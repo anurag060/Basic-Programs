@@ -10,6 +10,6 @@ def rev_sentence(sentence):
     return reverse_sentence   
   
 if __name__ == "__main__": 
-    input = 'geeks quiz practice code'
-    print rev_sentence(input) 
-    
+    string = input("enter the word ")
+    print(rev_sentence(string))
+
