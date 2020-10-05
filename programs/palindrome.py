@@ -3,10 +3,8 @@
 def isPalindrome(s):
     return s == s[::-1]
  
- 
-# Driver code
-s = "malayalam"
-ans = isPalindrome(s)
+string = input("enter the word "))
+ans = isPalindrome(string)
  
 if ans:
     print("Yes")
